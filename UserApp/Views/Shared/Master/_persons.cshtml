@@ -1,0 +1,66 @@
+﻿<!-- Button trigger modal -->
+<button type="button" id="btnmodel" style="display: none" class="btn btn-primary" data-toggle="modal" data-target="#userModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add User</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <label>First Name</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="form-group">
+                            <input id="txtfirstname" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>Last Name</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="form-group">
+                            <input id="txtlastname" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>Birth Date</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="form-group">
+                            <input id="txtbirthdate" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>Phone Number</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="form-group">
+                            <input id="txtphonenumber" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <label>Adress</label>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="form-group">
+                            <input id="txtadress" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-secondary" data-dismiss="modal">Close</a>
+                <a href="#" onclick="Save(); return false" class="btn btn-primary">Save changes</a>
+            </div>
+        </div>
+    </div>
+</div>
